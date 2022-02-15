@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <title>CSS Color Format Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">CSS Color Format Survey</h1>
+      <p id="description">There are different ways to get the exact color you are looking for.  Submit your vote for the CSS color format that you gravitate to.</p>
+    </header>
+
+    <form id="survey-form">
+      <div class="form-list">
+      <label id="name-label">Name:</label>
+      <input type="text" id="name" placeholder="John Smith" required>
+      </div>
+      <div class="form-list">
+        <label id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="name@mail.com" required>
+      </div>
+      <div class="form-list">
+      <label id="number-label">Age:</label>
+      <input type="number" id="number" placeholder="18" min=10 max =120>
+      </div>
+        <div class="form-list">
+      <label id="number-label">Years Coding:</label>
+      <input type="number" id="number" placeholder="# Years" min=10 max =120>
+      </div>
+      </div>
+     <div class="radio-select">
+      <p>Which is your color format?</p>
+       <div class="radio-options">
+      <label for="rgb-format" class="radio-opt"><input type="radio" id="rgb-format" name="color-format" value="format-response">rgb()</label>
+      <label for="hsl-format" class="radio-opt"><input type="radio" id="hsl-format" name="color-format" value="format-response">hsl()</label>
+      <label for="hex-format" class="radio-opt"><input type="radio" id="hex-format" name="color-format" value="format-response">Hexadecimal</label>
+        </div>
+        </div>
+        <div class="cbo-select">
+      <p>How often to you use an alpha channel?</p>
+      <select id="dropdown" class="alpha-select">
+        <option id="dropdown" value="blank"> </option>
+        <option id="dropdown" value="always">Always</option>
+        <option id="dropdown" value="mostly">Most of the Time</option> 
+        <option id="dropdown" value="sometimes">Sometimes</option>
+        <option id="dropdown" value="rarely">Rarely</option>
+        <option id="dropdown" value="never">Never</option>
+       </select>
+        </div>
+        <div class="multi-select">
+      <p>Which situations do you use the color format selected above?</p>
+          <div class="situation-list">
+      <label for="situations"><input id="page-background" type="checkbox" name="situation-select" value="use-response">Page Background</label>
+      <label for="situations"><input id="element-background" type="checkbox" name="situation-select" value="use-response">Element Background</label>
+      <label for="situations"><input id="title-text" type="checkbox" name="situation-select" value="use-response">Title Text</label>
+      <label for="situations"><input id="content-text" type="checkbox" name="situation-select" value="use-response">Content Text</label>
+      <label for="situations"><input id="shapes" type="checkbox" name="situation-select" value="use-response">Shapes</label>
+          </div>
+        </div>
+    <div class="comment-submit"
+       <label id="comments">Comments:</label><br>
+    <textarea id="textarea"></textarea><br>
+       <input id="submit" type="submit" value="Submit">
+    </div>
+    </form>
+  </body>
+</html>
