@@ -1,0 +1,63 @@
+body {
+  background: hsl(170, 50%, 20%);
+  font-size: 30px;
+  color: hsl(170, 10%, 90%);
+  margin: 0 0 0 20px;
+  padding: 0;
+  top: 0;
+  font-family: "Tahoma";
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#survey-form {
+  margin-left: 40px;
+}
+
+.form-entry {
+  margin: 50px 0;
+}
+
+.radio-select {
+  margin: 50px 0;
+}
+
+.cbo-select {
+  margin: 50px 0;
+}
+
+.comment-submit {
+  margin: 50px 0;
+}
+
+.radio-options {
+  margin-left: 20px;
+}
+.radio-opt {
+  display: block;
+}
+
+.alpha-select {
+  margin-left: 20px;
+}
+
+.situation-list {
+  margin-left: 20px;
+}
+
+.situation-list label {
+  display: block;
+}
+
+.comment-submit {
+  margin: 50px 0;
+}
+
+textarea {
+  margin-left: 20px;
+  width: 500px;
+  height: 100px;
+}
